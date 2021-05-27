@@ -46,7 +46,7 @@ For manually controll a quality assessment was applied evaluating the following 
 Before cluster analysis, the WMH burden of each WM tract was l2-normalized. Additionally, the cluster performance evaluation, the volumentric as well as the statistical analysis was applied (cluster_analysis.py).
 
 
-# Coresponding author: 
+# Coresponding author
 Theodor Rumetshofer, Department of Clinical Science Lund / Diagnostic Radiology, Lund University/SUS/Lund, 22185 Lund, Sweden, theodor.rumetshofer@med.lu.se, OCRID: 0000-0002-0778-0703
 
 (Theodor Rumetshofer and Francesca Inglese contributed equally to this work)
