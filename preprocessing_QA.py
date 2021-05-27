@@ -13,12 +13,7 @@
      Theodor Rumetshofer
 
  | Description:    
-     This script generates images for each subject to evaluate:
-         a) T1 brain extraction
-         b) FLAIR coregistration to T1 (done by LST-LGA)
-         c) lesion map in T1-space
-         d) lesion map in MNI-space
-         e) T1 contours over MNI-space to check the transformation 
+     This script generates images for each subject for manual quality assessment.
 
  | List of functions:
      No user defined functions are used in the program.
@@ -27,7 +22,11 @@
      None
 
  | Procedure:
-     1) 
+     1) T1 brain extraction
+     2) FLAIR coregistration to T1 (done by LST-LGA)
+     3) lesion map in T1-space
+     4) lesion map in MNI-space
+     5) T1 contours over MNI-space to check the transformation  
 
  | Usage:
      ./preprocessing_QA.py
