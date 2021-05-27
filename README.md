@@ -27,14 +27,14 @@ flirt -in FLAIR_reor.nii.gz -ref T1.nii.gz -out FLAIR_reor_flirt.nii.gz
 Part 2 extracts the lesion probability maps from all subjects and used the original FLAIR (and reoriented and coregistered 3D FLAIRS) as well as T1 images as input. The resulted lesion probability maps as well as the FLAIR images are coregistered to T1-space. All parameters wer used as default, including kappa= 0.3.
 
 ## part 3
-The T1-images were brain extracted and the brain masks were applied to the lesion probability maps. Latter, were transfered to MNI-space using the transformation files from the MNI-registration of the T1 image (see preprocessing_pipeline_3.py).
+The T1-images were brain extracted and the brain masks were applied to the lesion probability maps. Latter, were transfered to MNI-space using the transformation files from the MNI-registration of the T1 image (see [preprocessing_pipeline_3.py](preprocessing_pipeline_3.py)).
 
 ## part 4
-The number and volume of the WMH for each subject were extracted for each subject in T1- and MNI-space. Additionally, the lesion probability maps in MNI-space were masked with the JHU WM tract atlas which resulted in a WMH burden for each of the 20 WM tracts for each subject (see preprocessing_pipeline_4.py).
+The number and volume of the WMH for each subject were extracted for each subject in T1- and MNI-space. Additionally, the lesion probability maps in MNI-space were masked with the JHU WM tract atlas which resulted in a WMH burden for each of the 20 WM tracts for each subject (see [preprocessing_pipeline_4.py](preprocessing_pipeline_4.py))
 
 
 # Quality Assessment
-For manually controll a quality assessment was applied evaluating the following preprocessing steps for each subject. Every step was saved as an PNG-image in lightbox view (see preprocessing_QA.py):
+For manually controll a quality assessment was applied evaluating the following preprocessing steps for each subject. Every step was saved as an PNG-image in lightbox view (see [preprocessing_QA.py](preprocessing_QA.py)):
 * brain extraction
 * FLAIR coregistration
 * lesion probability map in T1-space
@@ -43,7 +43,7 @@ For manually controll a quality assessment was applied evaluating the following 
 
 
 # Analysis
-Before cluster analysis, the WMH burden of each WM tract was l2-normalized. Additionally, the cluster performance evaluation, the volumentric as well as the statistical analysis was applied (cluster_analysis.py).
+Before cluster analysis, the WMH burden of each WM tract was l2-normalized. Additionally, the cluster performance evaluation, the volumentric as well as the statistical analysis was applied (see [cluster_analysis.py](cluster_analysis.py)).
 
 
 # Coresponding author
