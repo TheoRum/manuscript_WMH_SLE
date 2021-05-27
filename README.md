@@ -1,7 +1,9 @@
 
 # Tract based white matter hyperintensity patterns in Systemic Lupus Erythematosus.
 
-README file for the manuscript "Tract based white matter hyperintensity patterns in Systemic Lupus Erythematosus". In this work a method was created to characterize WMH in a two-site Systemic Lupus Erythematosus (SLE). The core step consists of cluster analysis (hierarchical clustering) to identify clusters which can be associated to specific WM tracts. 
+README file for the manuscript "Tract based white matter hyperintensity patterns in Systemic Lupus Erythematosus". 
+
+In this work a method was created to characterize WMH in a two-site Systemic Lupus Erythematosus (SLE) dataset. The core step consists of cluster analysis (hierarchical clustering) to identify SLE phenotypes which can be associated to specific WM tracts. 
 
 # Installation
 
