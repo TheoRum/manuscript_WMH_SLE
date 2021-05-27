@@ -9,7 +9,7 @@ LST-LGA was used as a non-compiled packaged and copied into the SPM12 toolbox fo
 
 
 # Preprocessing
-<img src="images/pp_image.png" width="200" height="200" />
+<img src="images/pp_image.png" width="400" height="800" />
 
 An overview of all preprocessing steps can be seen in the image above. Those steps are separated in four different parts. 
 
