@@ -7,7 +7,7 @@ In this work a method was created to characterize WMH in a two-site Systemic Lup
 
 # Installation
 
-LST-LGA was used as a non-compiled packaged and copied into the SPM12 toolbox folder.
+LST-LGA was used as a non-compiled package and copied into the SPM12 toolbox folder.
 
 
 # Preprocessing
